@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenImages</title>
+    <link rel="stylesheet" href="static/result.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="static/icon1.png">
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">GreenImages<span>.</span></div>
+        <a class="btn" href="{{url_for('home')}}">Home</a>
+    </nav>
+    <header>
+        <div id="home" class="section_container header_container">
+            <div class="header_image">
+                <img src={{c}} alt="leaf img">
+            </div>
+            <div class="header_content">
+                <div>
+                    <p class="section_subtitle"></p>
+                    <h1>{{a}} </h1>
+                    <h2>Confidence Value : {{e}}</h2>
+                    <p class="section_subtitle">
+                        {{b}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

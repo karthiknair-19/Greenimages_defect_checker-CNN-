@@ -1,0 +1,9 @@
+pandas
+numpy 
+tensorflow==2.10
+tensorflow_hub
+matplotlib
+pillow
+OpenCV-python
+Flask
+-e .

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenImages</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="static/icon1.png">
+</head>
+<body>
+    <nav>
+        <div class="nav_logo">GreenImages<span>.</span></div>
+        <ul class="nav_links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#project">Project</a></li>
+            <li class="link"><a href="#defect">Defect-Checker</a></li>
+            <li class="link"><a href="#about">About Us</a></li>
+        </ul>
+        <button class="btn">Contact Us</button>
+    </nav>
+    <header>
+        <div id="home" class="section_container header_container">
+            <div class="header_image">
+                <img src="static/header1.jpg" alt="header">
+                <img src="static/header2.jpg" alt="header">
+            </div>
+            <div class="header_content">
+                <div>
+                    <p class="section_subtitle">Welcome,</p>
+                    <h1>In every walk with nature, <br> one receives far more <br> than he seeks.</h1>
+                    <p class="section_subtitle">
+                        GreenImages is designed to assist farmers, gardeners, and agricultural professionals in
+                        monitoring the health of their plants by detecting various types of defects, such as diseases,
+                        pests, nutrient deficiencies, and physical damage, on plant leaves.
+                    </p>
+                    <div class="action_btns">
+                        <a class="btn" href="#project">Check More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section_container nature_container">
+        <div class="section_header">
+            <div>
+                <h2 id="project" class="section_titlee">Why GreenImages?</h2>
+                <p class="section_subtitlee">
+                    "GreenImages" is a project that holds significant value in our daily lives, particularly in the
+                    realms of agriculture, horticulture, and environmental monitoring. Its primary purpose is to
+                    facilitate early detection of diseases and defects in plant leaves, thus contributing to the overall
+                    health and productivity of plant life. Farmers and gardeners can rely on GreenImages to efficiently
+                    manage their crops and gardens by identifying issues such as diseases and pests at an early stage,
+                    enabling them to take timely corrective measures.Beyond agriculture, GreenImages extends
+                    its benefits to environmental conservation efforts, where it aids in monitoring the health of native
+                    plant species and protecting endangered flora. By offering remote monitoring capabilities and
+                    promoting food security through reduced
+                    crop losses, GreenImages plays a crucial role in enhancing our daily lives and contributing to a
+                    sustainable future.
+                </p>
+            </div>
+            <div class="nature_nav">
+                <span><i class='bx bx-chevron-left'></i></span>
+                <span><i class='bx bx-chevron-right'></i></span>
+            </div>
+        </div>
+        <div class="nature_grid">
+            <div class="nature_card">
+                <img src="static/nature1.jpg" alt="destination">
+            </div>
+            <div class="nature_card">
+                <img src="static/nature2.jpg" alt="destination">
+            </div>
+            <div class="nature_card">
+                <img src="static/nature3.jpg" alt="destination">
+            </div>
+            <div class="nature_card">
+                <img src="static/nature4.jpg" alt="destination">
+            </div>
+        </div>
+    </section>
+    <section class="checker">
+        <div class="section_container checker_container">
+            <h2 id="defect" class="section_title">Defect Checker</h2>
+            <p class="section_subtitle">
+                Upload your picture here to identify plant defects and discover the appropriate remedies.
+            </p>
+            <div class="container">
+                <header>Image Uploader</header>
+                <form  action="{{url_for('home')}}"  method="post"  enctype="multipart/form-data">
+                    <input type="file" class="file-input" name="file" hidden >
+                    <i class='bx bxs-cloud-upload'></i>
+                    <p>Browse Image to Upload</p>
+                    <input class="btn" type="submit" value="Submit">
+                </form>
+                <section class="progress-area"></section>
+                <section class="uploaded-area"></section> 
+            </div>
+    </section>
+    <section class="About">
+        <div class="section_container checker_container">
+            <h2 id="about" class="section_title">About Us</h2>
+            <p class="section_subtitlee">
+                Together, Manoj Kumar S, a passionate web developer, and Karthik Nair, a dedicated data
+                analyst, collaborated on the GreenImages project. Combining Manoj's unique skills and keen eye for
+                detail with Karthik's expertise in data analysis, they seamlessly integrated visually stunning design
+                with data-driven solutions. Manoj Kumar's craftsmanship in crafting the project's user interface ensured
+                that it not only functioned seamlessly but also captivated the viewer's attention. Meanwhile, Karthik
+                Nair's data-driven insights and analytical prowess contributed to the project's robust functionality,
+                enabling the accurate detection of plant defects and the provision of appropriate remedies. This
+                collaboration exemplified the synergy between design and data, ultimately advancing the project's
+                mission of promoting healthy plant life and making a positive impact in various fields, from agriculture
+                to environmental conservation.
+            </p>
+            <section class="wrap">
+                <section class="gallary">
+                    <div class="section__container gallary__container">
+                        <div class="profile-card">
+                            <div class="profile-card-inner">
+                                <div class="profile-card-front">
+                                    <div class="title">
+                                        <h3> Manoj Kumar S</h3>
+                                        <span> Web-Developer</span>
+                                    </div>
+                                </div>
+                                <div class="profile-card-back">
+                                    <img src="static/manoj.jpg" alt="profile pic">
+                                    <h3> Manoj Kumar S</h3>
+                                    <span class="job"> Web-developer </span>
+                                    <div class="social-media">
+                                        <div class="social-media">
+                                            <span style="background: #4267b2;" class="icon">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </span>
+                                            <span style="background: #808080;" class="icon">
+                                                <i class='bx bxl-github'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section class="gallary">
+                    <div class="section__container gallary__container">
+                        <div class="profile-card">
+                            <div class="profile-card-inner">
+                                <div class="profile-card-frontt">
+                                    <div class="title">
+                                        <h3> karthik Nair</h3>
+                                        <span> Data Analyst </span>
+                                    </div>
+                                </div>
+                                <div class="profile-card-back">
+                                    <img src="static/karthik.png" alt="profile pic">
+                                    <h3> Karthik Nair</h3>
+                                    <span class="job">Data Analyst</span>
+                                    <div class="social-media">
+                                        <div class="social-media">
+                                            <span style="background: #4267b2;" class="icon">
+                                                <i class='bx bxl-linkedin'></i>
+                                            </span>
+                                            <span style="background: #808080;" class="icon">
+                                                <i class='bx bxl-github'></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </section>
+    </section>
+    <footer class="footer">
+        <div class="section_container footer_container">
+            <div class="footer_col">
+                <h3>GreenImages<span>.</span></h3>
+                <p>
+                    GreenImages is designed to assist farmers, gardeners, and agricultural professionals in monitoring
+                    the health of their plants by detecting various types of defects, such as diseases, pests, nutrient
+                    deficiencies, and physical damage, on plant leaves.
+                </p>
+            </div>
+            <div class="footer_col">
+                <h4> Manoj Kumar S</h4>
+                <p><span>Email:</span> info@Greenmages.com</p>
+                <p><span>Phone:</span> +91 9876543210</p>
+            </div>
+            <div class="footer_col">
+                <h4> Karthik Nair</h4>
+                <p><span>Email:</span> info@Greenmages.com</p>
+                <p><span>Phone:</span> +91 9876543210</p>
+            </div>
+        </div>
+        <div class="footer_bar">
+            Copyright © 2023 GreenImages. All rights reserved.
+        </div>
+    </footer>
+    <script src="static/script.js"></script>
+</body>
+</html>
