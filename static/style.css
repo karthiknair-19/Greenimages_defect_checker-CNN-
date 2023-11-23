@@ -43,6 +43,8 @@ html {
     padding: 12px 32px;
     outline: none;
     border: none;
+    position: relative;/*relative position with top 4 rem added*/
+    top: 4rem;
     font-size: 16px;
     color: #ffffff;
     background-color: #79AC78;
@@ -242,6 +244,7 @@ nav {
     margin-left: 350px;
     width: 500px;
     padding: 30px;
+    /* border: black solid 2px; */
     background: white;
     border-radius: 5px;
 }
@@ -254,7 +257,8 @@ nav {
 }
 
 .container form {
-    height: 165px;
+    /*changed height from 165px to 145px*/
+    height: 145px; 
     border-radius: 5px;
     margin: 30px 0;
     display: flex;
@@ -270,6 +274,7 @@ form :where(i, p) {
 }
 
 form i {
+    margin-top: 2rem; /*margin top added*/
     font-size: 50px;
 }
 
