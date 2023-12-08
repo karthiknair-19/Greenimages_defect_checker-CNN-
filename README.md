@@ -1,11 +1,14 @@
-Certainly! I've added some styling to make the README visually appealing. You can further customize the styling based on your preferences.
-
 <!-- Project Title -->
 <h1 align="center">Crop Disease Detection and Cure Recommendation System</h1>
 
 <!-- Project Description -->
 <p align="center">
   The Crop Disease Detection and Cure Recommendation System is a machine learning project that utilizes a Convolutional Neural Network (CNN) with the ResNet V2 architecture. This system empowers farmers to upload images of defected plants, identifies crop diseases, and provides recommended solutions to protect and cure the crops.
+</p>
+
+<!-- GIF Showcase -->
+<p align="center">
+  <img src="path/to/your/gif.gif" alt="GIF Showcase" width="80%">
 </p>
 
 <!-- Project Features -->
@@ -20,10 +23,11 @@ Certainly! I've added some styling to make the README visually appealing. You ca
 <h2 align="center">Getting Started</h2>
 
 ### Installation
-bash
+
 $ git clone https://github.com/yourusername/crop-disease-detection.git
 $ cd crop-disease-detection
 $ pip install -r requirements.txt  # Install necessary dependencies
+
 
 
 ### Usage
