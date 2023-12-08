@@ -8,7 +8,7 @@
 
 <!-- GIF Showcase -->
 <p align="center">
-  <img src="https://clipchamp.com/watch/tgULpVjMn5D" alt="GIF Showcase" width="80%">
+  <img src="https://github.com/karthiknair-19/Greenimages_defect_checker-CNN-/assets/124065232/69e3ed4a-2319-43c8-be35-d148f310849f" alt="GIF Showcase" width="80%">
 </p>
 
 <!-- Project Features -->
