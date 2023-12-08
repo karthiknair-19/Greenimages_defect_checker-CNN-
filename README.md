@@ -24,9 +24,9 @@
 
 ### Installation
 
-$ git clone https://github.com/yourusername/crop-disease-detection.git
-$ cd crop-disease-detection
-$ pip install -r requirements.txt  # Install necessary dependencies
+1. $ git clone https://github.com/yourusername/crop-disease-detection.git
+2. $ cd crop-disease-detection
+3. $ pip install -r requirements.txt  # Install necessary dependencies
 
 
 
