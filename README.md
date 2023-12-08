@@ -39,14 +39,16 @@ $ pip install -r requirements.txt  # Install necessary dependencies
 <!-- Libraries Used -->
 <h2 align="center">Libraries Used</h2>
 
+
 <p align="center">
   <img alt="TensorFlow Logo" src="https://www.tensorflow.org/images/tf_logo_social.png" height="50" />
   <img alt="scikit-learn Logo" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" height="50" />
   <img alt="Flask Logo" src="https://flask.palletsprojects.com/en/2.1.x/_images/flask-logo.png" height="50" />
-  <img alt="NumPy Logo" src="https://numpy.org/images/logos/numpy.svg](https://en.wikipedia.org/wiki/File:NumPy_logo_2020.svg" height="50" />
+  <img alt="NumPy Logo" src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" height="50" />
   <img alt="regex Logo" src="https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/regex_logo.png" height="50" />
   <img alt="HTML and CSS Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="50" />
 </p>
+
 
 <!-- Contributing -->
 <h2 align="center">Contributing</h2>
