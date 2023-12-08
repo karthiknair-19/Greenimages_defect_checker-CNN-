@@ -8,7 +8,7 @@
 
 <!-- GIF Showcase -->
 <p align="center">
-  <img src="https://github.com/karthiknair-19/Greenimages_defect_checker-CNN-/assets/124065232/69e3ed4a-2319-43c8-be35-d148f310849f" alt="GIF Showcase" width="80%">
+  <img src="https://github.com/karthiknair-19/Greenimages_defect_checker-CNN-/assets/124065232/cc306667-df84-4283-bf92-2b6359e1db34" alt="GIF Showcase" width="80%">
 </p>
 
 <!-- Project Features -->
