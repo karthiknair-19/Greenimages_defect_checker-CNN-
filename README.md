@@ -62,10 +62,10 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 <p align="center">
   <a href="https://github.com/contributor1">
-    <img alt="Contributor 1" src="https://avatars.githubusercontent.com/u/CONTRIBUTOR1_ID" width="50" />
+    <img alt="Manoj Senthil " src="https://avatars.githubusercontent.com/u/CONTRIBUTOR1_ID" width="50" />
   </a>
   <a href="https://github.com/contributor2">
-    <img alt="Contributor 2" src="https://avatars.githubusercontent.com/u/CONTRIBUTOR2_ID" width="50" />
+    <img alt="Karthik B nair" src="https://avatars.githubusercontent.com/u/karthiknair-19" width="50" />
   </a>
   <!-- Add more contributors as needed -->
 </p>
@@ -78,4 +78,3 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).
 </p>
 ```
 
-Make sure to replace `CONTRIBUTOR1_ID` and `CONTRIBUTOR2_ID` with the actual GitHub IDs of your contributors. Additionally, you can customize the styling further if needed.
