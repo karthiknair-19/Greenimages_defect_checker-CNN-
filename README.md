@@ -43,7 +43,7 @@ $ pip install -r requirements.txt  # Install necessary dependencies
   <img alt="TensorFlow Logo" src="https://www.tensorflow.org/images/tf_logo_social.png" height="50" />
   <img alt="scikit-learn Logo" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" height="50" />
   <img alt="Flask Logo" src="https://flask.palletsprojects.com/en/2.1.x/_images/flask-logo.png" height="50" />
-  <img alt="NumPy Logo" src="https://numpy.org/images/logos/numpy.svg" height="50" />
+  <img alt="NumPy Logo" src="https://numpy.org/images/logos/numpy.svg](https://en.wikipedia.org/wiki/File:NumPy_logo_2020.svg" height="50" />
   <img alt="regex Logo" src="https://raw.githubusercontent.com/PySimpleGUI/PySimpleGUI/master/regex_logo.png" height="50" />
   <img alt="HTML and CSS Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" height="50" />
 </p>
@@ -63,15 +63,16 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 <!-- Contributors -->
 <h2 align="center">Contributors</h2>
-
 <p align="center">
-  <a href="https://github.com/contributor1">
-    <img alt="Manoj Senthil " src="https://avatars.githubusercontent.com/u/CONTRIBUTOR1_ID" width="50" />
-  </a>
-  <a href="https://github.com/contributor2">
-    <img alt="Karthik B nair" src="https://avatars.githubusercontent.com/u/karthiknair-19" width="50" />
+  <a href="https://github.com/karthiknair-19">
+    <img alt="Karthik Nair" src="https://avatars.githubusercontent.com/u/62004147" width="50" />
   </a>
   <!-- Add more contributors as needed -->
+</p>
+<!-- License -->
+<h2 align="center">License</h2>
+<p align="center">
+  This project is licensed under the [MIT License](LICENSE).
 </p>
 
 <!-- License -->
