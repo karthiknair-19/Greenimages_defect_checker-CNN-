@@ -75,11 +75,4 @@ Please follow our [contribution guidelines](CONTRIBUTING.md).
   This project is licensed under the [MIT License](LICENSE).
 </p>
 
-<!-- License -->
-<h2 align="center">License</h2>
-
-<p align="center">
-  This project is licensed under the [MIT License](LICENSE).
-</p>
-```
 
