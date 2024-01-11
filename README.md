@@ -25,7 +25,7 @@
 ### Installation
 
 1. $ git clone https://github.com/karthiknair-19/Greenimages_defect_checker-CNN-.git
-2. $ cd crop-disease-detection
+2. $ cd Greenimages_defect_checker-CNN-
 3. $ pip install -r requirements.txt  # Install necessary dependencies
 
 
